@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Gravitas+One&family=Monsieur+La+Doulaise&family=Pacifico&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/********************************** navbar :start********************************* */
+
+
+
+/********************************** navbar :end********************************* */
+/********************************** Scroll bar :start********************************* */
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+
+    background-color: rgb(166, 164, 167);
+}
+
+html::-webkit-scrollbar-thumb {
+    width: 3px;
+    background-color: rgb(41, 38, 38);
+}
+
+
+/********************************** scrollbar :end********************************* */
+/********************************** nav Responsiev Start********************************* */
+
+
+/********************************** nav Responsiev end********************************* */
+/********************************** Home SLider Start********************************* */
+.slider1{
+    background-image: url("./SliderImages/ama-dablam-g7c6c7b3c4_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 150px  300px ;
+
+}
+.slider2{
+    background-image: url("./SliderImages/road\ desert.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 300px ;
+
+}
+.slider3{
+    background-image: url("././SliderImages/church.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 300px ;
+
+}
+.slider1 h4{
+        font-size: 20px;
+}
+.slider2 h4{
+        font-size: 20px;
+        color: aliceblue;
+}
+.slider3 h4{
+        font-size: 20px;
+        color: aliceblue;
+}
+.slider1 h1{
+        font-size: 80px;
+text-transform: uppercase;
+}
+.slider2 h1{
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+text-transform: uppercase;
+}
+.slider3 h1{
+        font-size: 80px;
+        color: aliceblue;
+        text-transform: uppercase;
+}
+.slider1 button{
+        font-size: 20px;
+        background-color: rgb(250, 245, 245);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        outline: none;
+        border:none;
+        text-transform: capitalize;
+        padding: 10px;
+        transition: 0.7s ease;
+}
+.slider1 button:hover{
+    background-color: rgb(197, 150, 241);
+    transform: scale(0.9);
+    color: black;
+
+}
+.slider2 button{
+        font-size: 20px;
+        background-color: rgb(250, 245, 245);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        outline: none;
+        border:none;
+        text-transform: capitalize;
+        padding: 10px;
+        transition: 0.7s ease;
+}
+.slider2 button:hover{
+    background-color: rgb(197, 150, 241);
+    transform: scale(0.9);
+    color: black;
+
+}
+.slider3 button{
+        font-size: 20px;
+        background-color: rgb(250, 245, 245);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        outline: none;
+        border:none;
+        text-transform: capitalize;
+        padding: 10px;
+        transition: 0.7s ease;
+}
+.slider3 button:hover{
+    background-color: rgb(197, 150, 241);
+    transform: scale(0.9);
+    color: black;
+
+}
+/********************************** Home Slider end********************************* */
+/********************************** Home services start********************************* */
+
+
+
+.servicesheading{
+    margin-top: 20px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.servicesheading h1{
+    margin: 100px 0px;
+
+    font-size: 60px;
+    font-weight: normal;
+
+
+}
+.homabut{
+    margin-top: 100px;
+}
+.servicess{
+margin-bottom: 100px;
+}
+.sericon{
+    background-color: rgb(243, 126, 237);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 35px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor:pointer;
+    
+}
+.sericon:hover{
+    color:rgb(243, 126, 237) ;
+    background-color: antiquewhite;
+
+}
+.iconrow{
+    padding-left: 80px;
+}
+
+.sericon i{
+    margin: 20px;
+    font-size: 30px;
+}
+.sericon h5{
+    margin: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.homeabout img{
+    width: 577px;
+    height: 550px;
+    margin-top: -55px;
+    margin-left: -20px;
+}
+.homeaboutdetail h4{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.homeaboutdetail button{
+    margin: 30px 0px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.8s ease
+
+
+}
+.homeaboutdetail button:hover{
+    
+    
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+
+}
+.homeaboutdetail{
+    background-color: rgb(231, 231, 231);
+}
+.homeabout1{
+    display: flex;
+    align-items: center;
+    margin-left: -13px;
+}
+.homeabout1 .homeaboutdetail{
+        padding:0px  20px;
+}
+/********************************** Home service end********************************* */
+/********************************** Home pakage start********************************* */
+.packagearea img{
+    width: 356px;
+    height:300px;
+}
+.packagearea{
+    background-color: rgb(235, 235, 235);
+    margin-top: 50px;
+   justify-content: center;
+   padding-bottom: 20px;
+}
+.packagearea p{
+    text-align: center;
+}
+.packagearea button{
+    text-align: center;
+   margin-left: 35%;
+   border: none;
+   outline: none;
+   background-color: black;
+   color: aliceblue;
+   padding: 10px;
+   text-transform: uppercase;
+   font-size: 15px;
+   transition: 0.8s ease;
+
+
+
+}
+.packagearea button:hover{
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.packagearea h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.packheading{
+    margin-top: 20px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.packheading h1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.loadbtn button{
+    margin-top: 50px;
+    margin-left:480px;
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    
+    transition: 0.8s ease;
+
+    
+}
+.loadbtn button:hover{
+    transform: scale(0.9);
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+}
+
+/********************************** Home spakage end********************************* */
+/********************************** Dicount start********************************* */
+.Discount{
+    background-color: rgb(240, 240, 240);
+    padding: 10px 150px;
+    margin: 60px 0px;
+}
+.Discount h1{
+    text-align: center;
+}
+.Discount p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.Discount button{
+    border: none;
+    outline: none;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding:10px;
+    text-transform: uppercase;
+    transition: 0.8s ease;
+
+}
+.Discount button:hover{
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+/********************************** HDiscount end********************************* */
+/********************************** Footer start********************************* */
+
+.containimg{
+    margin-top: 100px;
+    background-image: url("./SliderImages/winding-road-g1bb39aadf_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.setopacity{
+    color: antiquewhite;
+    height: auto;
+
+    opacity: 0.8;
+    background-color: black;
+    padding: 50px 80px;
+}
+.footdetail h2{
+text-transform: capitalize;
+}
+.footdetail p{
+text-transform: capitalize;
+transition: 0.8s ease;
+}
+.footdetail p:hover{
+    margin-left: 10px;
+}
+.footdetail i{
+    color: blueviolet;
+margin-right: 5px;
+}
+
+
+/********************************** Footer end********************************* */
+/********************************** About us start********************************* */
+.aboutpic{
+    background-image: url("./SliderImages/road\ desert.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 120px;
+    
+}
+.aboutpic h1{
+    font-weight: normal;
+    padding: 120px 0px;
+   text-align: center;
+   color: aliceblue;
+   font-size:80px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containmar{
+margin-top: 100px;
+}
+
+.aboutdetailpic img{
+
+   width: 567px ;
+   height: 400px;
+   margin-left: -10px;
+
+}
+.aboutdetail{
+    padding: 0px 90px;
+}
+.aboutdetail h1{
+text-transform: capitalize;
+text-align: center;
+}
+.aboutdetail p{
+text-transform: capitalize;
+text-align: center;
+}
+.custumorbox{
+background-color: rgb(180, 180, 180);
+color: rgb(0, 0, 0);
+margin-left:30px;
+text-align: center;
+border-radius: 5px;
+}
+.custumorbox:hover{
+background-color: rgb(240, 158, 236);
+color: grey;
+
+border-radius: none;
+}
+.custumorbox p{
+    text-align: center;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    
+}
+.custumorbox i{
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    padding-top: 20px;
+    
+    
+}
+.custumorbox i:hover{
+    color: grey;
+}
+/********************************** About us end********************************* */
+/********************************** package start********************************* */
+.packagepic{
+    background-image: url("./SliderImages/winding-road-g1bb39aadf_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.packagepic h1{
+ padding: 100px 0px;
+ text-align: center;
+ color: aliceblue;
+ font-size: 60px;
+
+}
+.packheading h3{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.containmarpack{
+    background-color: rgb(230, 230, 230);
+    margin-top: 40px;
+    padding: 30px;
+}
+.pachead h2{
+text-align: center;
+color: black;
+font-size: 50px;
+font-weight: bolder;
+margin: 30px 0px;
+}
+.form{
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+} 
+.form input{
+    margin: 10px 0px;
+    height: 40px;
+    text-indent: 10px;
+    text-transform: capitalize;
+    
+}
+.form label{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.packpic{
+    background: url("./SliderImages/church.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.packpic h1{
+    padding: 100px 0px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+}
+.packdead h2{
+    text-align: center;
+color: black;
+font-size: 50px;
+font-weight: bolder;
+margin: 30px 0px;
+text-transform: capitalize;
+}
+.destdetail{
+    display: flex;
+    justify-content: center;
+}
+.destdetail1{
+   text-align: center;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0px 1px 10px 2px rgba(140,139,139,0.75);
+-webkit-box-shadow: 0px 1px 10px 2px rgba(140,139,139,0.75);
+-moz-box-shadow: 0px 1px 10px 2px rgba(140,139,139,0.75);
+    margin-right: 30px;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.destdetail1:hover{
+    transform: scale(0.90);
+}
+.destdetail1 img{
+    height: 280px;
+    transition: 0.7s ease;
+}
+.destdetail1 img:hover{
+transform: scale(0.9);
+}
+.destdetail1 h4{
+text-transform: capitalize;
+font-size: 28px;
+margin-top: 10px;
+}
+.destdetail1 button{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border:none;
+    text-transform: capitalize;
+    padding: 10px;
+    transition: 0.7s ease;
+    margin-bottom: 10px;
+}
+.destdetail1 button:hover{
+    background-color: rgb(250, 250, 250);
+    transform: scale(0.9);
+    color: black;
+}
+.loadmore2 button{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border:none;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 300px;
+    transition: 0.7s ease;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.loadmore2 button:hover{
+    
+    background-color: rgb(250, 231, 231);
+    transform: scale(0.9);
+    color: black;
+}
+.bookbtn button{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border:none;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 300px;
+    transition: 0.7s ease;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.bookbtn button:hover{
+    background-color: rgb(250, 231, 231);
+    transform: scale(0.9);
+    color: black;
+}
+
+/********************************** package end********************************* */
+
+
+
+/* responsiveNess Css start */
+
+@media (max-width:992px){
+    
+}
+@media (max-width:767px){
+    html{
+        font-size: 55%;
+    }
+    .servicesheading h1{
+        font-size: 2.6em;
+        margin: 4em 0em;
+      
+    }
+    .slider1{
+        padding: 10em 0em;
+    }
+    .slider2{
+        padding: 10em 0em;
+    }
+    .slider3{
+        padding: 10em 0em;
+    }
+    .slider1 h1{
+        font-size: 2.6em;
+        margin: 2em 0em;
+        color: white;
+    }
+    .slider1 h4{
+        color: white;
+    }
+    .slider2 h1{
+        font-size: 2.6em;
+        margin: 2em 0em;
+    }
+    .slider3 h1{
+        font-size: 2.6em;
+        margin: 2em 0em;
+    }
+    .loadbtn button{
+        margin: 0px;
+    }
+    .iconrow{
+        padding: 0px 160px;
+    }
+    .sericon{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .homeabout img{
+        margin-left: 0px;
+        border-top-right-radius:1em ;
+        border-top-left-radius:1em ;
+        margin-top:10em;
+    }
+    .homeaboutdetail{
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    .homeabout1{
+        margin: 0em;
+    }
+    .packagess{
+       padding: 10em; 
+    }
+    .packheading h1{
+        font-size: 4em;
+    }
+    .loadbtn{
+        padding: 0em 23em;
+    }
+    .setopacity{
+        padding: 50px 260px;
+    }
+
+    /* about page responsiveness */
+    .aboutpic h1{
+        font-size: 4em;
+        text-transform: capitalize;
+    }
+    .aboutdetailpic{
+        background-color: white;
+    }
+    .custumorbox{
+        margin: 0px;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .custumorbox p{
+        display: block;
+    }
+    .cussport{
+    padding: 0em 20em;
+    margin-top: 5em;
+    
+    }
+    .aboutdetail p{
+        margin: 3em 0em;
+    }
+    .aboutdetail h1 {
+        margin-top: 3em;
+    }
+
+    /* package responsiveness */
+    .destdetail1{
+        margin: 0em;
+        padding: 0em;
+        overflow: none;
+        border: none;
+        margin-bottom: 4em;
+    }
+    .destdetail{
+        padding: 20em;
+    }
+    .destdetail1 img{
+        margin-left: 0em;
+    }
+    .packdead h2{
+        margin-top: 2em;
+        font-weight: 600;
+    }
+}
+@media (max-width:576px){
+    .setopacity{
+        padding: 4em 20em;
+    }
+    .homabut{
+        padding: 0px 8em;
+    }
+    /* about reponsiveness */
+    .aboutdetailpic img{
+        margin-left: 0em;
+    }
+
+    /* package responsiveness */
+    .destdetail1{
+        overflow: none;
+        margin: 0em;
+        border: none;
+        margin-bottom: 2em;
+
+    }
+    .destdetail1 img{
+        margin: 0em;
+    }
+    .destdetail{
+padding: 0em 10em;
+    }
+
+    /* booking responsieness */
+    .form{
+        padding: 2em;
+    }
+}
+/* responsiveNess Css end */
+
+
+
+
