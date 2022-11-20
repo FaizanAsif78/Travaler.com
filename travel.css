@@ -37,7 +37,7 @@ html::-webkit-scrollbar-thumb {
 /********************************** nav Responsiev end********************************* */
 /********************************** Home SLider Start********************************* */
 .slider1{
-    background-image: url("./SliderImages/ama-dablam-g7c6c7b3c4_1920.jpg");
+    background-image: url("./ama-dablam-g7c6c7b3c4_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 .slider2{
-    background-image: url("./SliderImages/road\ desert.jpg");
+    background-image: url("./road\ desert.jpg");
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 .slider3{
-    background-image: url("././SliderImages/church.jpg");
+    background-image: url("././church.jpg");
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
@@ -343,7 +343,7 @@ margin-bottom: 100px;
 
 .containimg{
     margin-top: 100px;
-    background-image: url("./SliderImages/winding-road-g1bb39aadf_1920.jpg");
+    background-image: url("./winding-road-g1bb39aadf_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -374,7 +374,7 @@ margin-right: 5px;
 /********************************** Footer end********************************* */
 /********************************** About us start********************************* */
 .aboutpic{
-    background-image: url("./SliderImages/road\ desert.jpg");
+    background-image: url("./road\ desert.jpg");
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 120px;
@@ -444,7 +444,7 @@ border-radius: none;
 /********************************** About us end********************************* */
 /********************************** package start********************************* */
 .packagepic{
-    background-image: url("./SliderImages/winding-road-g1bb39aadf_1920.jpg");
+    background-image: url("./winding-road-g1bb39aadf_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
     
@@ -495,7 +495,7 @@ margin: 30px 0px;
     font-weight: 500;
 }
 .packpic{
-    background: url("./SliderImages/church.jpg");
+    background: url("./church.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
